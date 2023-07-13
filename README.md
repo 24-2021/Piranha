@@ -18,7 +18,8 @@ pip3 install -r re.txt
 
 config.yaml
 
-![image-20230713092022703](C:\Users\apt\AppData\Roaming\Typora\typora-user-images\image-20230713092022703.png)
+![image-20230713092022703](https://github.com/mamba-2021/Piranha/assets/75511051/a89ee427-6b4c-4c57-9749-1c046496c330)
+
 
 可以根据个人实战情况，进行修改字典
 
@@ -40,7 +41,8 @@ Piranha_win_amd64.exe path.txt
 
 查找完毕之后，会生成file_all.txt,file_filterate.txt；file_filterate.txt是根据字典过滤后的
 
-![image-20230713091713413](C:\Users\apt\AppData\Roaming\Typora\typora-user-images\image-20230713091713413.png)
+![image-20230713091713413](https://github.com/mamba-2021/Piranha/assets/75511051/d3bbcf94-201a-447c-a4ac-461cfa57926c)
+
 
 ### Linux
 
