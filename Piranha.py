@@ -64,11 +64,10 @@ def file_name_list(txt):
         for path in f:
             try:
                 path = path.strip('\n')
-                path = path.strip('/')
                 code=get_code(path)
                 content=read_file_all(path,code)  #组装
-                # print(content)
                 poc_file = open('file_all.txt', 'a+')
+                print("Read and write all successful")
                 poc_file.write(content + '\n')
                 poc_file.close()
             except:
@@ -82,7 +81,6 @@ def file_name_list_check(txt):
         for path in f:
             try:
                 path = path.strip('\n')
-                path = path.strip('/')
                 code=get_code(path)
                 content=read_file_all(path,code)  #组装
                 for key in keys:
@@ -93,8 +91,8 @@ def file_name_list_check(txt):
                 #     or "datasource" in content or "datasource" in content or "accessKeyId" in content or "accessKeySecret" in content or "sms" in content\
                 #     or "access" in content or "access" in content or "mssql" in content or "sqlserver" in content or "aliyun" in content:
                     if key in content:
-                        print(content)
                         poc_file = open('file_filterate.txt', 'a+')
+                        print("Read and write all check successful")
                         poc_file.write(content + '\n')
                         poc_file.close()
                         break
