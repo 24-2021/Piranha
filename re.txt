@@ -1,2 +1,3 @@
 PyYAML==5.4.1
 chardet==5.0.0
+cprint==1.2.2
