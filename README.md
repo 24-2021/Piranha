@@ -65,8 +65,10 @@ pip3 install pyinstaller
 pyinstaller -F Piranha.py
 ```
 Linux：
-![image](https://github.com/mamba-2021/Piranha/assets/75511051/615f8d79-f5de-42db-b265-2a1eef8dcdb0)
+![image](https://github.com/mamba-2021/Piranha/assets/75511051/fbee0b2f-6bca-412c-ae68-936466ecf8a8)
+
 
 Windows：
-![image](https://github.com/mamba-2021/Piranha/assets/75511051/a54efe24-e91c-4c07-8442-0960b2d2f6fb)
+![image](https://github.com/mamba-2021/Piranha/assets/75511051/46f52c1d-5488-48c3-bb75-b58e9ed008b7)
+
 
