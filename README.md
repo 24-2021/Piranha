@@ -64,4 +64,9 @@ find /var/www/ -name *.conf >path.txt  #这里配置文件后缀不仅限于conf
 pip3 install pyinstaller
 pyinstaller -F Piranha.py
 ```
+Linux：
+![image](https://github.com/mamba-2021/Piranha/assets/75511051/615f8d79-f5de-42db-b265-2a1eef8dcdb0)
+
+Windows：
+![image](https://github.com/mamba-2021/Piranha/assets/75511051/a54efe24-e91c-4c07-8442-0960b2d2f6fb)
 
