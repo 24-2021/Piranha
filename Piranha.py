@@ -58,7 +58,6 @@ def get_code(file_path):
     else:
         cprint.fatal("该文件无法读取")
         # print("该文件无法读取")
-# code=get_code("G:\\tcsec-keeper\\sdk\\pom.xml" )
 
 #获取编码格式并且将读取的文件转换成utf-8
 
